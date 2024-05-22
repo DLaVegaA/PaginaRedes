@@ -15,24 +15,24 @@
                 <p>Utiliza la siguiente calculadora para calcular IPs de subredes. Para que pueda calcular necesita una dirección IP y su máscara de red (nermask), esta calcula la dirección de broadcast, red, wildcard mask y el número de IPs en la red.</p>
             </div>
             <form>
-                <div class="row row-cols-3">                
-                    <div class="col-md-4 order-md-last">
-                        <label for="DirIPFormControl" class="form-label">Dirección IP(Host/Network)</label>
-                        <input type="text" class="form-control" id="DirIPFormControl" placeholder="x.x.x.x">
-                    </div>
-                    <div class="col-md-4 order-md-last">
-                        <label for="MascaraRedFormControl" class="form-label">/Máscara de Red(hasta 24)</label>
-                        <input type="text" class="form-control" id="MascaraRedFormControl" placeholder="x">
-                    </div>
-                    <div class="col-md-4 order-md-last">
-                        <label for="SubRedNetFormControl" class="form-label">Máscara de Red sub/supernet (opcional)</label>
-                        <input type="text" class="form-control" id="SubRedNetFormControl" placeholder="">
-                    </div>
-                    <div class="col-md-12 order-md-last ContenedorBotones">
-                        <button type="reset" class="btn btn-secondary btnCal izq">Limpiar</button>
-                        <button type="submit" class="btn btn-primary btnCal der">calcular</button>
-                    </div>                    
+            <div class="row row-cols-3 ContPrin">               
+                <div class="col-md-4 order-md-last">
+                    <label for="DirIPFormControl" class="form-label">Dirección IP(Host/Network)</label>
+                    <input type="text" class="form-control" id="DirIPFormControl" placeholder="x.x.x.x">
                 </div>
+                <div class="col-md-4 order-md-last">
+                    <label for="MascaraRedFormControl" class="form-label">/Máscara de Red(hasta 24)</label>
+                    <input type="text" class="form-control" id="MascaraRedFormControl" placeholder="x">
+                </div>
+                <div class="col-md-4 order-md-last">
+                    <label for="SubRedNetFormControl" class="form-label">Máscara de Red sub/supernet (opcional)</label>
+                    <input type="text" class="form-control" id="SubRedNetFormControl" placeholder="">
+                </div>
+                <div class="col-md-12 order-md-last ContenedorBotones">
+                    <button type="reset" class="btn btn-secondary btnCal izq">Limpiar</button>
+                    <button type="submit" class="btn btn-primary btnCal der">Calcular</button>
+                </div>                    
+            </div>
             </form>
         </main>
     </div>

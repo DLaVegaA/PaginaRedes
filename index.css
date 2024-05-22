@@ -1,9 +1,16 @@
+form {
+    position: relative;
+    padding-bottom: 60px;
+}
+
 .ContenedorBotones {
     display: flex;
     justify-content: space-between;
-    position: absolute;
+    /* position: absolute; */
+    margin-top: 10px;
+    margin-bottom: 10px;
     bottom: 10px;
-    width: calc(100% - 20px);
+    /* width: calc(100% - 20px); */
     left: 10px;
 }
 
@@ -12,16 +19,9 @@
     padding-left: 20px;
 }
 
-.izq{
-    float: left;
-    bottom: 0;
-    left: 0;
-    margin: 10px;
-}
-
-.der {
-    float: right;
-    bottom: 0;
-    right: 0;
-    margin: 10px;
+.ContPrin {
+    background-color: #eff9ff;
+    border: 1px solid rgba(0, 0, 0, 0.121);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
